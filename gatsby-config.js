@@ -4,3 +4,15 @@ module.exports = {
   },
   plugins: [],
 }
+// gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: `@lekoarts/gatsby-theme-cara`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/sideproject`,
+      },
+    },
+  ],
+};
